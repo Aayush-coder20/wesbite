@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+
+      .Content{
+        width: 100%;
+        height:1000px;
+        background-color: rgb(255, 255, 191);
+      }
+      
+    
+      .rightbox{
+        width: 50%;
+        height: 50%;
+        margin-right: 3%;
+        margin-left: 5%;
+        margin-top: 5%;
+        float: right;
+        background-color: bisque;
+      }
+      .nav-item{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(242, 255, 255);
+      }
+     .img-thumbnail{
+      width: 30%;
+      height: 70%;
+      border-radius: 120px 120px 0px 0px;
+      margin-left: 5%;
+      margin-top: 5%;
+
+     }
+     @font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/nasalization.zip') format('zip'),
+         url('fonts/nasalization.zip') format('zip'); /* Add additional formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  #title
+     {
+    font-family: 'nasalization', sans-serif;
+    font-size: 10px;
+    float: right;
+    color: rgb(254, 255, 196);
+    text-align: center;}
+
+.caraousal-fade{
+
+}
+.navbar-brand{
+font-size: 30px;
+font-family: 'nasalization', sans-serif;
+color: aliceblue;
+
+
+}
+footer {
+    background-color:rgb(255, 103, 103);
+}
+
+     </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+    <div class="container-fluid" style="background-color: rgb(255, 139, 139); ">
+      <a class="navbar-brand" href="portfolio.html">Aayush</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="index.html" >Home</a></p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="Mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="abt me 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>About Me </h5>
+          <p>Creativity Takes Courage</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="abt me 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>My story</h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="abt me 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>My Artworks </h5>
+          <p>Let's have a glance of some of my Artworks</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <footer class="custom-bg text-white text-center py-3">
+    <p>&copy; 2024 Aayush Rane All Rights Reserved.</p>
+  </footer>
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body> 
+</html>
+
+      
